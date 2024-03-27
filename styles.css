@@ -1,0 +1,152 @@
+* {
+  scroll-behavior: smooth;
+}
+
+html {
+  background-color: #F5E8DD;
+  margin: 0;
+  padding: 0;
+  color: #544996;
+  scroll-padding-top: 12rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: url("https://cdn.custom-cursor.com/128/assets/arrows/32/Cat_Paw_Cursor.png"), pointer;
+  color: #b2dfdb;
+}
+
+main {}
+
+body {
+  font-family: helvetica;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  background-color: #CCCCB6;
+  width: 100%;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 10rem;
+  font-size: 4rem;
+  width: 80%;
+}
+
+nav ul {
+  display: table;
+  line-height: 4rem;
+  width: 100%;
+}
+
+nav ul li {
+  display: table-cell;
+  margin: 1.2rem 0;
+}
+
+nav ul li a {
+  border-radius: 0.5rem;
+  background-color: #AAAAAA;
+}
+
+main {
+  padding-top: 10rem;
+  margin-top: 0;
+}
+
+#icon {
+  width: 10rem;
+  margin: 0;
+  padding: 0;
+}
+
+#title-photo {
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+
+#image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  object-fit: cover;;
+  height: auto;
+  border-radius: 3rem;
+}
+
+gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 20 auto;
+}
+
+gallery img {
+  border-radius: 4rem;
+  width: 40rem;
+  height: 40rem;
+  object-fit: cover;
+}
+
+h1, h2 {
+  font-size: 3rem;
+}
+
+p {
+  width: 60%;
+  margin: 0 auto 2rem auto;
+}
+
+#troll {
+  display: flex;
+  margin: 0 auto 1rem auto;
+  max-width: 40rem;
+  height: 40rem;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/*classes*/
+/*typography*/
+.font-small {
+  font-size: 0.5rem
+}
+
+.font-large {
+  font-size: 4rem
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/*formatting*/
+.divider {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  border-bottom: 0.2rem solid black; 
+}
+
+.small
+.medium
+.large
